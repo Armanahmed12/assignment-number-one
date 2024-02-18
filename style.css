@@ -47,3 +47,121 @@ header div{
     
 }
 /* header section style has been finished */
+
+/* ======== failures-section style has been started from here ======== */
+#failures-section{
+    width: 70%;
+    margin: 5rem auto 0;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+#failures-section > div{
+     width: 50%;
+   
+}
+#failures-section img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3.5rem;
+}
+
+#failures-lists div{
+
+     display: flex;
+     gap: 0.5rem;
+     padding-left: 0.5rem;
+     justify-content: left;
+     align-items: center;
+     
+}
+/* failures-section style has been ended */
+
+
+/* plans(goals) section has been started from here */
+
+#goals-section{
+
+       width: 70%;
+       margin: auto;
+       margin-bottom: 100px;
+}
+
+#goals-section > h2{
+
+     text-align: center;
+    
+}
+
+.all-goals-container{
+
+     display: flex;
+     gap: 2.5rem;
+     justify-content: center;
+     margin-top: 3rem;
+    
+    
+}
+
+.all-goals-container div{
+
+      text-align: center;
+}
+
+#watch-section{
+     
+     background-image: linear-gradient(to right,#1568d5,#ffffff1e,#ffffff1c),url('images/watch.png');
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     width: 70%; height: 150px;
+     margin: 0 auto 45px;
+     padding-left: 1rem;
+     padding-top: 0.5rem;
+    
+}
+
+#watch-section h2{
+     
+    color: white;
+    font-weight: bold;
+    margin: 1rem 0 0.3rem;
+
+}
+#watch-section img{
+
+       width: 100%;
+       height: 100%;
+       
+}
+/* plans(goals) section has been ended here */
+
+/* Footer setion */
+footer{
+
+     padding: 4rem;
+     background: black;
+     color: white;
+     height: 170px;
+     display: flex;
+     gap: 3rem;
+     
+}
+
+footer div{
+
+     width: 50%;
+}
+
+footer div:nth-child(2){
+
+     align-items: right;
+}
+
+footer input{
+
+     padding: 0.5rem 0.3rem;
+     width: 60%;
+     margin: 0.7rem 0;
+}
+
+
