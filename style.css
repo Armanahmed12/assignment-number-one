@@ -1,0 +1,49 @@
+/* common styles */
+*{
+    padding : 0;
+    margin  : 0;
+}
+.commonTextStyle{
+
+    font-weight: bold;
+    font-size: 2rem; 
+}
+
+button{
+
+     padding: 0.6rem;
+     font-weight: bold;
+     font-size: 1rem;
+     background: white;
+     color: blue;
+     border: none;
+}
+/* header section style */
+header{
+
+      height: 370px;
+      background-image: url('images/banner/banner3.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      color: white;
+
+}
+
+header div p{
+
+    margin: 0.5rem 0;
+    width: 70%;
+    margin-left: auto;
+
+}
+
+header div{
+
+      text-align: right;
+      width: 35%;
+      margin-left: auto;
+      margin-right: 16vw;
+      padding-top: 50px;
+    
+}
+/* header section style has been finished */
